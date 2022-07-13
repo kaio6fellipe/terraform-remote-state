@@ -1,4 +1,4 @@
-name: Create terraform plan on this repository
+name: Terraform plan
 
 on: 
   push:
