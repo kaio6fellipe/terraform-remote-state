@@ -1,7 +1,7 @@
 resource "aws_dynamodb_table" "terraform-state-dev" {
     name           = "terraform-state-dev"
-    read_capacity  = 20
-    write_capacity = 20
+    read_capacity  = 2
+    write_capacity = 2
     hash_key       = "LockID"
 
     attribute {
